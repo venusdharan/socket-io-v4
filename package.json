@@ -1,0 +1,26 @@
+{
+  "name": "websock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@socket.io/admin-ui": "^0.2.0",
+    "@socket.io/cluster-adapter": "^0.1.0",
+    "@socket.io/sticky": "^1.0.1",
+    "artillery-engine-socketio-v3": "^1.1.2",
+    "express": "~4.17.1",
+    "pidusage": "^3.0.0",
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {
+    "bufferutil": "^4.0.5",
+    "utf-8-validate": "^5.0.7"
+  }
+}

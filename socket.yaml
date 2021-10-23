@@ -1,0 +1,15 @@
+config:
+  target: "ws://localhost:3000"
+  socketio:
+    transports: ["websocket"]
+  phases:
+    - duration: 60
+      arrivalRate: 1000
+  engines:
+   socketio-v3: {}
+
+scenarios:
+  - engine: socketio-v3
+    flow:
+      - emit: ["hello","data"]
+        namespace: /
